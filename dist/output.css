@@ -530,8 +530,12 @@ video {
   bottom: 0.75rem;
 }
 
-.left-\[38\%\] {
-  left: 38%;
+.left-\[40\%\] {
+  left: 40%;
+}
+
+.left-\[41\.5\%\] {
+  left: 41.5%;
 }
 
 .left-\[42\%\] {
@@ -546,10 +550,6 @@ video {
   left: 45%;
 }
 
-.left-\[\] {
-  left: ;
-}
-
 .right-4 {
   right: 1rem;
 }
@@ -558,12 +558,16 @@ video {
   right: 1.5rem;
 }
 
-.top-\[40\%\] {
-  top: 40%;
-}
-
 .top-\[41\.2\%\] {
   top: 41.2%;
+}
+
+.top-\[42\.2\%\] {
+  top: 42.2%;
+}
+
+.top-\[43\.5\%\] {
+  top: 43.5%;
 }
 
 .top-\[44\.4\%\] {
@@ -574,44 +578,24 @@ video {
   top: 45%;
 }
 
-.top-\[\] {
-  top: ;
-}
-
-.left-\[35\%\] {
-  left: 35%;
-}
-
-.left-\[40\%\] {
-  left: 40%;
-}
-
 .left-\[41\%\] {
   left: 41%;
 }
 
-.top-\[43\%\] {
-  top: 43%;
+.left-\[41\.8\%\] {
+  left: 41.8%;
 }
 
-.top-\[42\.5\%\] {
-  top: 42.5%;
+.left-\[41\.3\%\] {
+  left: 41.3%;
 }
 
-.left-\[41\.5\%\] {
-  left: 41.5%;
+.left-\[40\.5\%\] {
+  left: 40.5%;
 }
 
-.top-\[42\.7\%\] {
-  top: 42.7%;
-}
-
-.top-\[42\.2\%\] {
-  top: 42.2%;
-}
-
-.top-\[20\%\] {
-  top: 20%;
+.left-\[43\%\] {
+  left: 43%;
 }
 
 .z-10 {
@@ -634,32 +618,16 @@ video {
   height: 12rem;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
-.h-\[180px\] {
-  height: 180px;
-}
-
-.h-\[90px\] {
-  height: 90px;
-}
-
-.h-\[100px\] {
-  height: 100px;
+.h-5 {
+  height: 1.25rem;
 }
 
 .h-\[120px\] {
   height: 120px;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-5 {
-  height: 1.25rem;
+.h-\[90px\] {
+  height: 90px;
 }
 
 .w-20 {
@@ -674,32 +642,16 @@ video {
   width: 11rem;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-\[180px\] {
-  width: 180px;
-}
-
-.w-\[90px\] {
-  width: 90px;
-}
-
-.w-\[100px\] {
-  width: 100px;
+.w-5 {
+  width: 1.25rem;
 }
 
 .w-\[120px\] {
   width: 120px;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
+.w-\[90px\] {
+  width: 90px;
 }
 
 @keyframes revolve {
@@ -718,11 +670,11 @@ video {
 
 @keyframes revolve2 {
   0% {
-    transform: rotate(0deg)translateX(90px) rotate(0deg);
+    transform: rotate(0deg)translateX(60px) rotate(0deg);
   }
 
   100% {
-    transform: rotate(360deg)translateX(90px) rotate(-360deg);
+    transform: rotate(360deg)translateX(60px) rotate(-360deg);
   }
 }
 
