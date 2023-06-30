@@ -530,12 +530,16 @@ video {
   bottom: 0.75rem;
 }
 
-.left-3 {
-  left: 0.75rem;
+.left-2 {
+  left: 0.5rem;
 }
 
-.left-3\.5 {
-  left: 0.875rem;
+.left-2\.5 {
+  left: 0.625rem;
+}
+
+.left-\[33\%\] {
+  left: 33%;
 }
 
 .left-\[37\%\] {
@@ -558,8 +562,16 @@ video {
   left: 44%;
 }
 
+.left-\[44\.6\%\] {
+  left: 44.6%;
+}
+
 .left-\[45\%\] {
   left: 45%;
+}
+
+.right-11 {
+  right: 2.75rem;
 }
 
 .right-4 {
@@ -574,12 +586,24 @@ video {
   right: 2.25rem;
 }
 
-.top-3 {
-  top: 0.75rem;
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-2\.5 {
+  top: 0.625rem;
+}
+
+.top-\[36\.5\%\] {
+  top: 36.5%;
 }
 
 .top-\[39\.5\%\] {
   top: 39.5%;
+}
+
+.top-\[41\%\] {
+  top: 41%;
 }
 
 .top-\[41\.2\%\] {
@@ -646,6 +670,14 @@ video {
   height: 160px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[26px\] {
+  height: 26px;
+}
+
 .h-\[90px\] {
   height: 90px;
 }
@@ -680,6 +712,14 @@ video {
 
 .w-\[160px\] {
   width: 160px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[26px\] {
+  width: 26px;
 }
 
 .w-\[90px\] {
@@ -728,13 +768,27 @@ video {
   animation: revolve3 35s linear infinite;
 }
 
-@keyframes revolveMoon {
+@keyframes revolve4 {
   0% {
-    transform: rotate(0deg)translateX(18px) rotate(0deg);
+    transform: rotate(0deg)translateX(102px) rotate(0deg);
   }
 
   100% {
-    transform: rotate(360deg)translateX(18px) rotate(-360deg);
+    transform: rotate(360deg)translateX(102px) rotate(-360deg);
+  }
+}
+
+.animate-revolve4 {
+  animation: revolve4 45s linear infinite;
+}
+
+@keyframes revolveMoon {
+  0% {
+    transform: rotate(0deg)translateX(13px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg)translateX(13px) rotate(-360deg);
   }
 }
 

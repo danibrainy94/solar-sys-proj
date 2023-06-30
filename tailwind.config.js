@@ -20,13 +20,13 @@ module.exports = {
         },
 
         revolveMoon: {
-          '0%': {transform: 'rotate(0deg)translateX(18px) rotate(0deg)'},
-          '100%': {transform: 'rotate(360deg)translateX(18px) rotate(-360deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(13px) rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)translateX(13px) rotate(-360deg)'},
         },
 
         revolve4: {
-          '0%': {transform: 'rotate(0deg)translateX(190px) rotate(0deg)'},
-          '100%': {transform: 'rotate(360deg)translateX(190px) rotate(-360deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(102px) rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)translateX(102px) rotate(-360deg)'},
         },
 
         revolve5: {
