@@ -40,8 +40,8 @@ module.exports = {
         },
 
         revolve7: {
-          '0%': {transform: 'rotate(0deg)translateX(333px) rotate(0deg)'},
-          '100%': {transform: 'rotate(360deg)translateX(333px) rotate(-360deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(195px) rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)translateX(195px) rotate(-360deg)'},
         },
 
         revolve8: {

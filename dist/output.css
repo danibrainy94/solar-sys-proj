@@ -538,6 +538,10 @@ video {
   left: 0.625rem;
 }
 
+.left-\[16\%\] {
+  left: 16%;
+}
+
 .left-\[22\.4\%\] {
   left: 22.4%;
 }
@@ -572,6 +576,10 @@ video {
 
 .left-\[44\%\] {
   left: 44%;
+}
+
+.left-\[44\.5\%\] {
+  left: 44.5%;
 }
 
 .left-\[44\.6\%\] {
@@ -612,6 +620,10 @@ video {
 
 .top-2\.5 {
   top: 0.625rem;
+}
+
+.top-\[23\%\] {
+  top: 23%;
 }
 
 .top-\[28\%\] {
@@ -660,6 +672,10 @@ video {
 
 .top-\[45\%\] {
   top: 45%;
+}
+
+.top-\[46\%\] {
+  top: 46%;
 }
 
 .z-10 {
@@ -726,6 +742,10 @@ video {
   height: 315px;
 }
 
+.h-\[385px\] {
+  height: 385px;
+}
+
 .h-\[90px\] {
   height: 90px;
 }
@@ -786,13 +806,12 @@ video {
   width: 315px;
 }
 
-.w-\[90px\] {
-  width: 90px;
+.w-\[385px\] {
+  width: 385px;
 }
 
-.rotate-45 {
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.w-\[90px\] {
+  width: 90px;
 }
 
 .rotate-90 {
@@ -882,6 +901,20 @@ video {
 
 .animate-revolve6 {
   animation: revolve6 65s linear infinite;
+}
+
+@keyframes revolve7 {
+  0% {
+    transform: rotate(0deg)translateX(195px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg)translateX(195px) rotate(-360deg);
+  }
+}
+
+.animate-revolve7 {
+  animation: revolve7 75s linear infinite;
 }
 
 @keyframes revolveMoon {
