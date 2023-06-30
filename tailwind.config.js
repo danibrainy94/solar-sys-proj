@@ -55,8 +55,8 @@ module.exports = {
         },
 
         revolveAst: {
-          '0%': {transform: 'rotate(0deg)translateX(260px) rotate(0deg)'},
-          '100%': {transform: 'rotate(180deg)translateX(260px) rotate(-360deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(200px) rotate(0deg)'},
+          '100%': {transform: 'rotate(180deg)translateX(960px) rotate(-360deg)'},
         }
 
       },
