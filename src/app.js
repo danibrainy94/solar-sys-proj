@@ -1,13 +1,13 @@
-const showCard = document.querySelectorAll("#info");
-const clickArea = document.querySelectorAll("#clickArea");
+const showCard = document.getElementById("info");
+const clickArea = document.getElementById("clickArea");
 // const clickRevert = document.getElementById("b-ground");
 
-clickArea.forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-        console.log(e.currentTarget);
-    })
-})
+const visibleCard = showCard.classList;
 
+function displayInfo () {
+    visibleCard.classList.add("visibleCard");
 
-// clickArea.addEventListener('click', displayCard);
+}
+
+clickArea.addEventListener('click', displayInfo);
 // clickRevert.addEventListener('click', hideCard);
