@@ -15,7 +15,7 @@ module.exports = {
         },
 
         revolve3: {
-          '0%': {transform: 'rotate(20deg)translateX(77px) rotate(-20deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(77px) rotate(0deg)'},
           '100%': {transform: 'rotate(360deg)translateX(77px) rotate(-360deg)'},
         },
 
@@ -25,12 +25,12 @@ module.exports = {
         },
 
         revolve4: {
-          '0%': {transform: 'rotate(45deg)translateX(102px) rotate(-45deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(102px) rotate(0deg)'},
           '100%': {transform: 'rotate(360deg)translateX(102px) rotate(-360deg)'},
         },
 
         revolve5: {
-          '0%': {transform: 'rotate(180deg)translateX(130px) rotate(-180deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(130px) rotate(0deg)'},
           '100%': {transform: 'rotate(360deg)translateX(130px) rotate(-360deg)'},
         },
 
@@ -45,8 +45,8 @@ module.exports = {
         },
 
         revolve8: {
-          '0%': {transform: 'rotate(0deg)translateX(380px) rotate(0deg)'},
-          '100%': {transform: 'rotate(360deg)translateX(380px) rotate(-360deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(225px) rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)translateX(225px) rotate(-360deg)'},
         },
 
         rotate: {
