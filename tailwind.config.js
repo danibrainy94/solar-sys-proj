@@ -15,8 +15,8 @@ module.exports = {
         },
 
         revolve3: {
-          '0%': {transform: 'rotate(0deg)translateX(80px) rotate(0deg)'},
-          '100%': {transform: 'rotate(360deg)translateX(80px) rotate(-360deg)'},
+          '0%': {transform: 'rotate(0deg)translateX(77px) rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)translateX(77px) rotate(-360deg)'},
         },
 
         revolveMoon: {
